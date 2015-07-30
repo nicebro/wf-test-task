@@ -1,0 +1,14 @@
+{
+	"extra": {
+		"heroku": {
+			"document-root": "/public",
+			"index-document": "index.php",
+			"php-config": [
+				"display_errors=on"
+			]
+		}
+	},
+	"require": {
+        "ext-mbstring": "*"
+    }
+}
